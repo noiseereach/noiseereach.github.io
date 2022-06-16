@@ -1,0 +1,150 @@
+:root {
+	--accent-colour: rgb(255, 180, 0);
+}
+
+body {
+	color: white;
+	margin: 0;
+	margin-top: 50px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background: url(background.png);
+        background-size: cover;
+        background-color:#464646;
+}
+
+.title, .subtitle, .subheading {
+	font-family: Raleway;
+	font-weight: normal;
+}
+
+p {
+	font-family: Roboto;
+}
+
+.title {
+	font-size: 5em;
+}
+
+.subheading {
+	font-size: 2.5em;
+}
+
+.title, .subtitle, .logo, .centred, .subheading {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	font-family: Roboto;
+	padding: 30px;
+	font-size: 2em;
+	padding-left: 40px;
+	padding-right: 40px;
+	transition: background 0.3s, box-shadow 0.3s;
+	border-radius: 5px;
+}
+
+.button.green {
+	background: rgb(0, 100, 0);
+	box-shadow: 0 0 20px rgb(0, 100, 0);
+	width: 185px;
+	text-align: center;
+}
+
+.button.green:hover {
+	background: rgb(20, 120, 20);
+}
+
+.button.discord, .button.youtube {
+	padding: 20px;
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+.button.discord {
+	background: rgb(88, 101, 242);
+	box-shadow: 0 0 20px rgb(88, 101, 242);
+}
+
+.button.discord:hover {
+	background: rgb(118, 131, 272);
+}
+
+.button.youtube {
+	background: rgb(134, 36, 36);
+	box-shadow: 0 0 20px rgb(134, 36, 36);
+	margin-right: 40px;
+}
+
+.button.youtube:hover {
+	background: rgb(158, 41, 41);
+}
+
+.centred-text, .feature-description {
+	width: 100%;
+	text-align: center;
+}
+
+.feature {
+	display: inline-block;
+}
+
+.feature:not(:last-child) {
+	margin-right: 40px;
+}
+
+.feature-description {
+	font-family: Roboto;
+	margin-top: -20px;
+}
+
+.mod {
+	border: solid 3px var(--accent-colour);
+	width: 894px;
+	height: 84px;
+	position: relative;
+	left: calc(50% - 450px);
+	font-family: Roboto;
+	font-size: 24px;
+	background-color: rgba(0, 0, 0, 150);
+	margin-bottom: 15px;
+	cursor: default;
+}
+
+.mod:hover {
+	border-color: rgb(255, 240, 60);
+}
+
+.mod-title {
+	position: absolute;
+	left: 15px;
+	top: 9px;
+}
+
+.mod-description {
+	position: absolute;
+	left: 15px;
+	top: 45px;
+	color: rgb(128, 128, 128);
+}
+
+#backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background: url(background.png);
+    background-size: cover;
+    background-color:#464646;
+}
+.mod-category {
+	font-size: 24px;
+	font-family: Roboto;
+	text-align: center;
+	margin-bottom: 16px;
+	cursor: default;
+}
