@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'UniversRegular';
+   font-display: swap;
+   src: url('UniversRegular/font.ttf');
+}
+@font-face {
+   font-family: 'jellolight';
+   font-display: swap;
+   src: url('jellolight/font.ttf');
+}
